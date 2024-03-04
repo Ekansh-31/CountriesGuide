@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.form {
+    padding: 15px 25px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.7s ease;
+    cursor: pointer;
+}
+#dark .form{
+    background-color: #392c83;
+}
+
+input{
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    width: 304px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+#dark input{
+    color: white;
+}
+.icon{
+    margin: 0px 15px;
+}
+::placeholder{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    transition: color 0.7s ease;
+}
+#dark ::placeholder{
+    color: white;
+}

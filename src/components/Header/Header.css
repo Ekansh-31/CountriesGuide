@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+    /* --background-colour-primary:#fafafa; */
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: white;
+    transition: background-color 0.7s ease;
+    width: 100%;
+    z-index: 11;
+}
+#light .container{
+    background-color: #fff;
+}
+#dark .container{
+    background-color: #392c83;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0px 100px;
+    font-family: 'Lora', serif;
+    transition: color 0.7s ease;
+}
+#light .head{
+    color:black;
+}
+#dark .head{
+    color: white;
+}
+.toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}
+.toggle p{
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    padding: 0px 150px 0px 0px;
+    transition: color 0.7s ease;
+}
+#light .toggle p{
+    color:black;
+}
+#dark .toggle p{
+    color: white;
+}

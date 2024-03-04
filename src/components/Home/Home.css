@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.home{
+    height: 100vh;
+    background-image: url('./image.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px  rgba(0,0,0,0.5);
+    transition: background-image 0.7s ease;
+}
+.dark{
+    background-image: url('./dark_image.jpg');
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.middle h1{
+   color: white;
+   margin-bottom: 20px;
+   font-family: 'Lora', serif;
+   font-size: 2rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

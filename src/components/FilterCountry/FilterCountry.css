@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+select{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.1rem;
+    transition: background-color 0.7s ease;
+    transition: color 0.7s ease;
+}
+#dark select{
+    background-color: #392c83;
+    color: white;
+}

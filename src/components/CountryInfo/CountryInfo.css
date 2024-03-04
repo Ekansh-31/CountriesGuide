@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.country_info_wrapper{
+    height: 100vh;
+    background-image: url('../Home/image.jpg');
+    background-size: cover;
+    transition: background-image 0.7s ease;
+    box-shadow: inset 0 0 0 2000px  rgba(0,0,0,0.6);
+}
+#dark .country_info_wrapper{
+    background-image: url('../Home/dark_image.jpg');
+}
+.country_info_wrapper h4{
+    font-family: 'Lora', serif;
+    margin-top: 15px;
+    margin-left: 98px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.country_container{
+    display: flex;
+    column-gap: 2rem;
+}
+.country_img{
+    width: 50%;
+    margin-left: 98px;
+}
+.country_img img{
+    height: 300px;
+}
+.country_info{
+    width: 50%;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    width: 120px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.weatherbtn{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    width: 120px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+#dark .button{
+    background-color: #392c83;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.2rem;
+    transition: color 0.7s ease;
+}
+#dark a{
+    color: white;
+}
+.country_info h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+.country_info_left{
+    display: flex;
+}
+.second{
+    margin-left: 25px;
+}
+.country_info_left h5{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    color: white;
+}
+.country_info_left h5 span{
+    opacity: 85%;
+    font-weight: 400;
+    color: white;
+    font-family: 'Lora', serif;
+}
+.border h5{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Lora', serif;
+}
+.border h5 span{
+    opacity: 85%;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    font-family: 'Lora', serif;
+}
+.border h5 span ul li{
+    list-style: none;
+   font-size: 1rem;
+   margin-top: 8px;
+   width: 120px;
+   text-align: center;
+   margin-right: 5px;
+   padding: 8px;
+   background-color: #fff;
+   transition: background-color 0.7s ease;
+   border-radius: 5px;
+}
+#dark .border h5 span ul li{
+    background-color: #392c83;
+    color: white;
+}
